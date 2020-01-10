@@ -92,7 +92,7 @@ class HHRequests:
             # каждую страницу с вакансиями сохраняем в файл формата json
             with open('vacancies_dict', 'w') as f:
                 json.dump(vacancies_dict, f)
-        return vacancies_dict
+        return 'vacancies_dict'
 
 
 if __name__ == '__main__':
